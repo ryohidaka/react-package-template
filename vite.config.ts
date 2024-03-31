@@ -14,7 +14,11 @@ export default defineConfig({
       fileName: "index",
     },
   },
-  plugins: [dts({ exclude: "src/example/" }), react(), tsconfigPaths()],
+  plugins: [
+    dts({ exclude: ["src/example/", "*.test.ts", "*.test.tsx"] }),
+    react(),
+    tsconfigPaths(),
+  ],
   test: {
     globals: true,
     setupFiles: ["./src/setupTests.ts"],
