@@ -13,6 +13,9 @@ export default defineConfig({
       formats: ["es"],
       fileName: "index",
     },
+    rollupOptions: {
+      external: ["react", "react-dom"],
+    },
   },
   plugins: [
     dts({
@@ -28,5 +31,8 @@ export default defineConfig({
       exclude: ["**/**/index.ts", ".eslintrc.cjs", "src/example"],
     },
     environment: "happy-dom",
+  },
+  resolve: {
+    dedupe: ["react", "react-dom"],
   },
 });
