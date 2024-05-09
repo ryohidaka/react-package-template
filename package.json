@@ -16,12 +16,13 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --emptyOutDir false",
+    "build": "tsc && vite build --emptyOutDir false && npm run docs",
     "preview": "vite preview",
     "prepare": "npx husky install",
     "test": "VITEST_MIN_THREADS=6 VITEST_MAX_THREADS=6 vitest run --passWithNoTests",
     "coverage": "vitest run --coverage",
-    "format": "npx prettier . --write"
+    "format": "npx prettier . --write",
+    "docs": "npx typedoc"
   },
   "repository": {
     "type": "git",
