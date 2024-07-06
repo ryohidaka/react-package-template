@@ -2,6 +2,7 @@
   "name": "react-package-template",
   "version": "0.1.0",
   "description": "Minimum configuration react template for publishing packages to npm.",
+  "keywords": [],
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
@@ -28,7 +29,7 @@
     "type": "git",
     "url": "git+https://github.com/ryohidaka/react-package-template.git"
   },
-  "author": "ryohidaka",
+  "author": "ryohidaka <39184410+ryohidaka@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ryohidaka/react-package-template/issues"
