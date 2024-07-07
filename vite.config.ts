@@ -1,8 +1,8 @@
-import { resolve } from "path";
-import { defineConfig } from "vitest/config";
-import dts from "vite-plugin-dts";
 import react from "@vitejs/plugin-react-swc";
+import { resolve } from "path";
+import dts from "vite-plugin-dts";
 import tsconfigPaths from "vite-tsconfig-paths";
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   build: {
