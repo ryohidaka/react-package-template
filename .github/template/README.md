@@ -1,6 +1,6 @@
 # %NAME%
 
-[![npm version](https://badge.fury.io/js/%NAME%.svg)](https://badge.fury.io/js/%NAME%)
+[![NPM Version](https://img.shields.io/npm/v/%NAME%?logo=npm)](https://www.npmjs.com/package/%NAME%)
 ![build](https://github.com/%AUTHOR%/%NAME%/workflows/Build/badge.svg)
 [![codecov](https://codecov.io/gh/%AUTHOR%/%NAME%/graph/badge.svg?token=RHP9TB2F51)](https://codecov.io/gh/%AUTHOR%/%NAME%)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
