@@ -32,7 +32,14 @@ export default defineConfig({
     globals: true,
     setupFiles: ["./src/setupTests.ts"],
     coverage: {
-      exclude: ["**/**/index.ts", ".eslintrc.cjs", "src/example", "docs"],
+      exclude: [
+        "**/**/index.ts",
+        ".eslintrc.cjs",
+        "src/example",
+        "docs",
+        "vite.config.ts",
+        "src/vite-env.d.ts",
+      ],
     },
     environment: "happy-dom",
   },
