@@ -17,7 +17,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --emptyOutDir false && npm run docs",
+    "build": "tsc && vite build --emptyOutDir false",
     "preview": "vite preview",
     "prepare": "npx husky install",
     "test": "VITEST_MIN_THREADS=6 VITEST_MAX_THREADS=6 vitest run --passWithNoTests",
