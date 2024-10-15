@@ -1,6 +1,6 @@
 {
   "name": "react-package-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Minimum configuration react template for publishing packages to npm.",
   "keywords": [],
   "type": "module",

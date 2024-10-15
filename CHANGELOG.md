@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/ryohidaka/react-package-template/compare/v0.1.0...v0.1.1) (2024-10-15)
+
+
+### Bug Fixes
+
+* Change build script. ([c332dfd](https://github.com/ryohidaka/react-package-template/commit/c332dfdb2a1a0af12702e99387efe769192872b7))
+
 ## 0.1.0 (2024-09-19)
 
 
