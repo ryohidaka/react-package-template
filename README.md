@@ -34,7 +34,7 @@ npm install react-package-template
 ## Usage Example
 
 ```ts
-import "npm-package-template";
+
 ```
 
 ## Link
