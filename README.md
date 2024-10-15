@@ -11,8 +11,6 @@
 
 Minimum configuration react template for publishing packages to npm.
 
-## Notes
-
 ## Installation
 
 You can install this library using npm:
@@ -21,7 +19,23 @@ You can install this library using npm:
 npm install react-package-template
 ```
 
-## Usage
+## Functions
+
+### `hoge(): string`
+
+#### Parameters
+
+| Parameter | Type | Description |
+| --------- | ---- | ----------- |
+|           |      |             |
+
+#### Returns
+
+## Usage Example
+
+```ts
+import "npm-package-template";
+```
 
 ## Link
 
