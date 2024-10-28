@@ -32,7 +32,7 @@ jobs:
 
       # Cleanup project
       - name: Cleanup
-        uses: ryohidaka/nodejs-cleanup@v1.5.3
+        uses: ryohidaka/nodejs-cleanup@v1.5.4
         with:
           description: ${{ steps.get_description.outputs.DESCRIPTION }}
           excluded: "CHANGELOG.md, .github/FUNDING.yml, .github/workflows/template-cleanup.yml, .github/workflows/code-cov.yml"
